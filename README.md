@@ -12,8 +12,8 @@ This simple Koa.js application demonstrates how to implement API key verificatio
 
 1. Create an [unkey account](http://app.unkey.com/)
 2. Create a new [API](https://app.unkey.com/apis). Copy the `API ID`.
-3. Go to [permissions](https://app.unkey.com/authorization/permissions) and create a new permission named `withAuth`
-4. Now go to roles and create a new role and select the `access-unkeyed-route` permission for the role.
+3. Go to [permissions](https://app.unkey.com/authorization/permissions) and create a new permission named `access-unkeyed-route`
+4. Now go to roles and create a new role and select the `withAuth` permission for the role.
 5. Go to [apis](https://app.unkey.com/apis) again and create a new key
 6. Click on the **"Keys"** tab.
 7. Select the key you created.
