@@ -19,8 +19,11 @@ This simple Koa.js application demonstrates how to implement API key verificatio
 7. Select the key you created.
 8. Click on the **"Permissions"** tab.
 9. Check the role's checkbox to assign the role and permission to the key.
-10. Create a new root key from the [settings/root-key](https://app.unkey.com/settings/root-keys/)
-
+10. Create a new root key from the [settings/root-key](https://app.unkey.com/settings/root-keys/) with permission to create and read keys.
+11. You can follow this link to create the root key on the workspace level.
+[https://app.unkey.com/settings/root-keys/new?permissions=api.*.create_key,api.*.read_key](https://app.unkey.com/settings/root-keys/new?permissions=api.*.create_key,api.*.read_key)
+12. Alternatively, follow this link to create the root key on the API level. Replace the API id with your API id. 
+[https://app.unkey.com/settings/root-keys/new?permissions=api.api_id.create_key,api.api_id.read_key](https://app.unkey.com/settings/root-keys/new?permissions=api.api_id.create_key,api.api_id.read_key)
 
 ## Prerequisites
 
